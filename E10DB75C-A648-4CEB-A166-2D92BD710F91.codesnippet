@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>reusecell</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>&lt;#UITableViewCell#&gt; *cell = [tableView dequeueReusableCellWithIdentifier:@"&lt;#reuseId#&gt;"];
+        if (cell == nil) {
+            cell = [[&lt;#UITableViewCell#&gt; alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"&lt;#reuseId#&gt;"];
+        }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E10DB75C-A648-4CEB-A166-2D92BD710F91</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>cell reuse</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

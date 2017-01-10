@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>lbtn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#lazy name#&gt;{
+    if (_&lt;#lazy name#&gt; == nil) {
+        _&lt;#lazy name#&gt; = [UIButton new];
+        _&lt;#lazy name#&gt;.titleLabel.font = [UIFont kep_regularPingFangSCWithSize:13];
+        [_&lt;#lazy name#&gt; setTitleColor:[UIColor colorFromHex:0x&lt;#584f60#&gt; alpha:1.0] forState:UIControlStateNormal];
+    }
+    return _&lt;#lazy name#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>78CD2DAD-4767-4B1E-B6E9-F0E59A8F0561</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

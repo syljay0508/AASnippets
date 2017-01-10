@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>llabel</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UILabel *)&lt;#lazy name#&gt;{
+    if (_&lt;#lazy name#&gt; == nil) {
+        _&lt;#lazy name#&gt; = [UILabel new];
+        _&lt;#lazy name#&gt;.textColor = [UIColor colorFromHex:0x&lt;#000000#&gt; alpha:&lt;#1.0#&gt;];
+        _&lt;#lazy name#&gt;.textAlignment = NSTextAlignment&lt;#Left#&gt;;
+        _&lt;#lazy name#&gt;.font = [UIFont systemFontOfSize:&lt;#18#&gt;];
+    }
+    return _&lt;#lazy name#&gt;;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>D5E54A8D-9B6A-448C-B40B-A727A129F0C4</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>lazy label</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
